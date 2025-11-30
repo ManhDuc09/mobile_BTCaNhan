@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".Cau_23.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MINH HỌA CÁC IMPLICIT INTENT"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_view_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Mở Google.com"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Quay số (+84123456789)"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_view_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Xem Danh bạ"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Gửi SMS (Đã điền sẵn nội dung)"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_get_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Chọn Hình ảnh"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_view_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Xem Bản đồ (Chỉ đường A->B)"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_music_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7. Mở Trình phát nhạc"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
